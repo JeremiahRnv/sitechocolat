@@ -11,7 +11,7 @@
 header{
     width: 100vw;
     height: 600px;
-    background-image: url(../_imgs/noteetmachine.jpg);
+    background-image: url(../noteetmachine.jpg);
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -104,7 +104,7 @@ header p{
 }
 
 .idea{
-    background-image: url(../_imgs/ordi.jpg);
+    background-image: url(../ordi.jpg);
     height: 350px;
     background-size: cover;
     background-position-y: 50%;
