@@ -1,0 +1,96 @@
+@media only screen and (max-width:768px){
+    h1{
+        font-size: 50px;
+    }
+    header nav{
+        display: none;
+    }
+    header aside nav{
+        display: block;
+    }
+
+    header{
+        height: 100vh;
+    }
+
+    header .burger{
+
+        display:flex;
+    }
+    .container{
+        padding: 0 10px;
+    }
+    header p {
+        padding:0 20px;
+        margin: 0;
+        font-size: 17px;
+    }
+    header .headerBlock{
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    header div img{
+        width:150px;
+    }
+    .burger{
+        width: 100vw;
+        height: 40px;
+        background-color: rgba(0, 0, 0, .4);
+        position: fixed;
+        top:0;
+    }
+    .burger #burger{
+        margin-left: 20px;
+    }
+
+    .burger span{
+        width:30px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: white;
+        margin-bottom:4px;
+    }
+
+    .projects .project{
+        width:100vw;
+    }
+
+    .idea{
+        height: 600px;
+    }
+
+    .idea .relative{
+        width:270px;
+    }
+
+    .ideaCadre{
+        width: 270px;
+        left:50%;
+        transform: translateX(-50%);
+        border-radius: 10px;
+    }
+    .idea p{
+        width: 270px;
+    }
+
+    .realisations .flexRow .cards {
+        width: calc(100% / 2) 
+    }
+    .realisations .flexRow .cards img{
+        width: 100%;
+    }
+
+    .why .container .wrap div{
+        width: 100%;
+    }
+
+    .why .container .flexRow div h3{
+        margin: 40px 0 20px;
+    }
+    footer .container div{
+        width:100%;
+        border: 0;
+    }
+
+}
